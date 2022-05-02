@@ -1,6 +1,36 @@
-*{
+/*  */
+/* *{
 
     color:pink;
     background-color:green;
 
+} */
+
+/*  */
+body {
+
+    background-color: beige;
 }
+/*  */
+button {
+
+    font-size: 30px; 
+}
+/*  */
+h1,h2 {
+
+    color:crimson;
+}
+/*  */
+#signup {
+
+    background-color:pink;
+    color:blue; 
+
+}
+/*  */
+.tag{
+
+    color:purple;
+}
+
