@@ -33,4 +33,14 @@ h1,h2 {
 
     color:purple;
 }
+/*  */
+.post a{
 
+    color:purple;
+}
+
+/*  */
+footer > a {
+    color:orange;
+
+}
