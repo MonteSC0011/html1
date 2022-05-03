@@ -44,3 +44,35 @@ footer > a {
     color:orange;
 
 }
+/*  */
+a[href*="google"] {
+
+    color:darkorange;
+
+}
+
+/*  */
+button:hover {
+
+    background-color:red;
+    color:aquamarine;
+
+}
+
+/*  */
+.post button:active{
+
+    background-color:green;
+
+}
+/*  */
+h2::first-letter {
+
+    font-size:50px; 
+}
+
+/*  */
+p::first-line {
+
+    color:green;
+}
