@@ -57,7 +57,6 @@ items[1].style.backgroundColor = 'pink';
 items[1].textContent = 'Alpha Kappa Alpha';
 items[1].style.color = 'green';
 
-items[0].textContent = "Delta Sigma Theta"
 items[0].style.fontWeight = 'bold';
 items[0].style.backgroundColor = 'red';
 items[0].textContent = 'Oooop - Coleman Love';
@@ -65,6 +64,29 @@ items[0].style.color = 'white';
 
 items[2].style.fontWeight = 'bold';
 items[2].style.backgroundColor = 'blue';
-items[2].textContent = 'Zee Phi - Zeta Phi Beta';
+items[2].textContent = 'Zee Phiiii - Zeta Phi Beta';
 items[2].style.color = 'white';
 
+// This is a counter which loops all the way until 10.
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+
+// }
+
+// for (let i = 0; i <=20; i +=2) {
+//     console.log(i);
+// }
+
+// for (let i = 100; i >= 0; i -=2) {
+
+//     console.log(i);
+
+// }
+
+for (var i = 0; i < items.length; i++) {
+
+    items[i].style.backgroundColor = 'grey';
+    items[i].textContent = 'I Changed The List';
+    items[i].style.color = 'green';
+
+}
