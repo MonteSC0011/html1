@@ -102,19 +102,22 @@ headerTitle.style.color = 'hotpink';
 
 //////////////////////////////////////////////////////////////////////////////
 //GetElementByTagName
-
-
 var li = document.getElementsByTagName('li');
 
 console.log(li);
 console.log(li[1]);
 
 li[1].textContent = "Hello 2";
-
 li[1].style.fontWeight = 'bold';
 li[1].style.backgroundColor = 'crimson';
 li[1].style.color = 'white';
 
+for(var i = 0; i < li.length; i++){
+
+    li[i].style.backgroundColor = 'lightgrey';
+    li[i].textContent = 'Changed Content'; 
+
+}
 
 
 
