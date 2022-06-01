@@ -45,27 +45,27 @@ headerTitle.style.color = 'hotpink';
 //////////////////////////////////////////
 /////////////////////////GetElementByClassName///////////
 
-var items = document.getElementsByClassName('list-group-item');
+// var items = document.getElementsByClassName('list-group-item');
 
-console.log(items);
-console.log(items[1]); 
+// console.log(items);
+// console.log(items[1]); 
 
-// Styling Property Attributes through the variable.
+// // Styling Property Attributes through the variable.
 
-items[1].style.fontWeight = 'bold';
-items[1].style.backgroundColor = 'pink';
-items[1].textContent = 'Alpha Kappa Alpha';
-items[1].style.color = 'green';
+// items[1].style.fontWeight = 'bold';
+// items[1].style.backgroundColor = 'pink';
+// items[1].textContent = 'Alpha Kappa Alpha';
+// items[1].style.color = 'green';
 
-items[0].style.fontWeight = 'bold';
-items[0].style.backgroundColor = 'red';
-items[0].textContent = 'Oooop - Coleman Love';
-items[0].style.color = 'white';
+// items[0].style.fontWeight = 'bold';
+// items[0].style.backgroundColor = 'red';
+// items[0].textContent = 'Oooop - Coleman Love';
+// items[0].style.color = 'white';
 
-items[2].style.fontWeight = 'bold';
-items[2].style.backgroundColor = 'blue';
-items[2].textContent = 'Zee Phiiii - Zeta Phi Beta';
-items[2].style.color = 'white';
+// items[2].style.fontWeight = 'bold';
+// items[2].style.backgroundColor = 'blue';
+// items[2].textContent = 'Zee Phiiii - Zeta Phi Beta';
+// items[2].style.color = 'white';
 
 // This is a counter which loops all the way until 10.
 // for (let i = 1; i <= 10; i++) {
@@ -91,13 +91,33 @@ items[2].style.color = 'white';
 
 // }
 
-const myDiamonds = ['Snacky','Scary','Piggy','Pinchie','Lily','IttyBitty','Nibbles','Lanky','Kibbles'];
+// 
+// const myDiamonds = ['Snacky','Scary','Piggy','Pinchie','Lily','IttyBitty','Nibbles','Lanky','Kibbles'];
 
-for(let i = 0; i < myDiamonds.length; i++){
+// for(let i = 0; i < myDiamonds.length; i++){
 
-    console.log(i, myDiamonds[i]);
+//     console.log(i, myDiamonds[i]);
 
-}
+// }
+
+//////////////////////////////////////////////////////////////////////////////
+//GetElementByTagName
+
+
+var li = document.getElementsByTagName('li');
+
+console.log(li);
+console.log(li[1]);
+
+li[1].textContent = "Hello 2";
+
+li[1].style.fontWeight = 'bold';
+li[1].style.backgroundColor = 'crimson';
+li[1].style.color = 'white';
+
+
+
+
 
 
 
