@@ -101,23 +101,46 @@ headerTitle.style.color = 'hotpink';
 // }
 
 //////////////////////////////////////////////////////////////////////////////
-//GetElementByTagName
-var li = document.getElementsByTagName('li');
+///////////////GetElementByTagName
 
-console.log(li);
-console.log(li[1]);
+// var li = document.getElementsByTagName('li');
 
-li[1].textContent = "Hello 2";
-li[1].style.fontWeight = 'bold';
-li[1].style.backgroundColor = 'crimson';
-li[1].style.color = 'white';
+// console.log(li);
+// console.log(li[1]);
 
-for(var i = 0; i < li.length; i++){
+// li[1].textContent = "Hello 2";
+// li[1].style.fontWeight = 'bold';
+// li[1].style.backgroundColor = 'crimson';
+// li[1].style.color = 'white';
 
-    li[i].style.backgroundColor = 'lightgrey';
-    li[i].textContent = 'Changed Content'; 
+// // 
+// for(var i = 0; i < li.length; i++){
 
-}
+//     li[i].style.backgroundColor = 'lightgrey';
+//     li[i].textContent = 'Changed Text'; 
+
+// }
+
+//////////////////////////////////////////////////////////////////////////////
+///////////// - Query Selector
+
+// 
+var header = document.querySelector('#main-header');
+header.style.borderBottom = 'solid 4px hotpink';
+// 
+var input = document.querySelector('input');
+input.value = "Changed The Input Box Text";
+// 
+var submit = document.querySelector("input[type='submit']");
+submit.value = "SEND"; 
+// 
+var item = document.querySelector('.list-group-item');
+item.style.color = 'red';
+// 
+var lastItem = document.querySelector('.list-group-item:last-child');
+lastItem.style.color = 'coral';
+
+
 
 
 
