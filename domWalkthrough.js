@@ -83,10 +83,22 @@ items[2].style.color = 'white';
 
 // }
 
-for (var i = 0; i < items.length; i++) {
+// for (var i = 0; i < items.length; i++) {
 
-    items[i].style.backgroundColor = 'grey';
-    items[i].textContent = 'I Changed The List';
-    items[i].style.color = 'green';
+//     items[i].style.backgroundColor = 'grey';
+//     items[i].textContent = 'I Changed The List';
+//     items[i].style.color = 'green';
+
+// }
+
+const myDiamonds = ['Snacky','Scary','Piggy','Pinchie','Lily','IttyBitty','Nibbles','Lanky','Kibbles'];
+
+for(let i = 0; i < myDiamonds.length; i++){
+
+    console.log(i, myDiamonds[i]);
 
 }
+
+
+
+
