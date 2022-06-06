@@ -124,22 +124,28 @@ headerTitle.style.color = 'hotpink';
 //////////////////////////////////////////////////////////////////////////////
 ///////////// - Query Selector
 
-// 
-var header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4px hotpink';
-// 
-var input = document.querySelector('input');
-input.value = "Changed The Input Box Text";
-// 
-var submit = document.querySelector("input[type='submit']");
-submit.value = "SEND"; 
-// 
-var item = document.querySelector('.list-group-item');
-item.style.color = 'red';
-// 
-var lastItem = document.querySelector('.list-group-item:last-child');
-lastItem.style.color = 'coral';
+// // 
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px hotpink';
+// // 
+// var input = document.querySelector('input');
+// input.value = "Changed The Input Box Text";
+// // 
+// var submit = document.querySelector("input[type='submit']");
+// submit.value = "SEND"; 
+// // 
+// var item = document.querySelector('.list-group-item');
+// item.style.color = 'red';
+// // 
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'coral';
 
+////////////////////////////////////////////////////////////////////
+//////////QuerySelectorALL
+
+var titles = document.querySelectorAll('.title');
+console.log(titles);
+titles[0].textContent = 'Hello Monte';  
 
 
 
