@@ -23,20 +23,49 @@ console.log(randomNumber);
 
 //
 
-const dayOfWeek = 'Monday';
+// const dayOfWeek = 'Monday';
 
-if (dayOfWeek === 'Monday') {
+// if (dayOfWeek === 'Monday') {
 
-    console.log('This is Monday');
+//     console.log('This is Monday');
 
-} else if (dayOfWeek === 'Thursday') {
+// } else if (dayOfWeek === 'Thursday') {
 
-    console.log("This is Thursday");
+//     console.log("This is Thursday");
 
-} else if (dayOfWeek ===  'Saturday') {
+// } else if (dayOfWeek ===  'Saturday') {
 
-    console.log("Hooray, today is Saturday");
+//     console.log("Hooray, today is Saturday");
+// }
+
+
+// const age = prompt('Enter An Age To Drive!');
+
+
+// if (age < 5) {
+
+//     console.log("You are less than 5! Cmon bro.");
+// } else if (age < 10) {
+
+//     console.log("Still too young!");
+
+// } else if (age >= 16) {
+
+//     console.log("You are able to drive!");
+// }
+
+const age = prompt('ENTER AN AGE');
+// const age = 8;
+
+if (age < 5) {
+    console.log("You Type Pretty Fast - 5 ");
+} else if (age < 10) {
+    console.log("Output of the logic compared to CASE STATEMENTS");
+} else if (age < 35) {
+    console.log("Output of the logic Mr Adult.");
 }
+//ELSE -- ALL ALL CONDITIONS IN THE LOGIC HAVE FAILED
+else {
 
-
-
+    console.log("Last Resort If All Conditons Fail");
+} 
