@@ -74,19 +74,42 @@ console.log(randomNumber);
 
 // }
 
-const password = prompt("Please Enter A New Password");
+// const password = prompt("Please Enter A New Password");
 
-if (password.length >= 6) {
+// if (password.length >= 6) {
 
-    //Nested Condition
-    if (password.indexOf(' ') === -1) {
+//     //Nested Condition
+//     if (password.indexOf(' ') === -1) {
 
-        console.log("Valid Password")
-    }else {
-        console.log("Password Can't Have Spaces")
-    }
+//         console.log("Valid Password")
+//     }else {
+//         console.log("Password Can't Have Spaces")
+//     }
 
-} else {
+// } else {
 
-    console.log("Password is Too Short")
+//     console.log("Password is Too Short")
+// }
+
+// function singSong() {
+//     console.log("DO");
+//     console.log("RE");
+//     console.log("MI");
+// }
+
+// singSong()
+// singSong()
+// singSong()
+
+function greet(firstName) {
+// 
+    console.log(`Hey There, ${firstName}`)
 }
+
+greet('Monte')
+
+function greet1(firstName,lastName) {
+    console.log(`Hey There, ${firstName} ${lastName[0]}.`)
+}
+
+greet1('Boomer','Sooner')
