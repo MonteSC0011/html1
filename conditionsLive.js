@@ -39,33 +39,38 @@ console.log(randomNumber);
 // }
 
 
-// const age = prompt('Enter An Age To Drive!');
-
+// const age = prompt('ENTER AN AGE');
+// // const age = 8;
 
 // if (age < 5) {
-
-//     console.log("You are less than 5! Cmon bro.");
+//     console.log("You Type Pretty Fast - 5 ");
 // } else if (age < 10) {
-
-//     console.log("Still too young!");
-
-// } else if (age >= 16) {
-
-//     console.log("You are able to drive!");
+//     console.log("Output of the logic compared to CASE STATEMENTS");
+// } else if (age < 35) {
+//     console.log("Output of the logic Mr Adult.");
 // }
+// //ELSE -- ALL ALL CONDITIONS IN THE LOGIC HAVE FAILED
+// else {
 
-const age = prompt('ENTER AN AGE');
-// const age = 8;
+//     console.log("Last Resort If All Conditons Fail");
+// } 
 
-if (age < 5) {
-    console.log("You Type Pretty Fast - 5 ");
-} else if (age < 10) {
-    console.log("Output of the logic compared to CASE STATEMENTS");
-} else if (age < 35) {
-    console.log("Output of the logic Mr Adult.");
+const expr = 'Papayas';
+
+switch (expr) {
+
+    case 'Oranges':
+        console.log("Oranges are $0.59 a pound");
+        break;    
+    case 'Mangoes':
+        console.log("Hello Mangos!");
+        break;
+    case 'Papayas':
+        console.log("Hello Papayas");
+        break;
+    default:
+        console.log("Sorry, we are out of your asked item.");
+
+
+
 }
-//ELSE -- ALL ALL CONDITIONS IN THE LOGIC HAVE FAILED
-else {
-
-    console.log("Last Resort If All Conditons Fail");
-} 
