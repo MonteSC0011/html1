@@ -55,22 +55,38 @@ console.log(randomNumber);
 //     console.log("Last Resort If All Conditons Fail");
 // } 
 
-const expr = 'Papayas';
 
-switch (expr) {
+// const expr = 'Papayas';
 
-    case 'Oranges':
-        console.log("Oranges are $0.59 a pound");
-        break;    
-    case 'Mangoes':
-        console.log("Hello Mangos!");
-        break;
-    case 'Papayas':
-        console.log("Hello Papayas");
-        break;
-    default:
-        console.log("Sorry, we are out of your asked item.");
+// switch (age) {
 
+//     case 'Oranges':
+//         console.log("Oranges are $0.59 a pound");
+//         break;    
+//     case 'Mangoes':
+//         console.log("Hello Mangos!");
+//         break;
+//     case 'Papayas':
+//         console.log("Hello Papayas");
+//         break;
+//     default:
+//         console.log("Sorry, we are out of your asked item.");
 
+// }
 
+const password = prompt("Please Enter A New Password");
+
+if (password.length >= 6) {
+
+    //Nested Condition
+    if (password.indexOf(' ') === -1) {
+
+        console.log("Valid Password")
+    }else {
+        console.log("Password Can't Have Spaces")
+    }
+
+} else {
+
+    console.log("Password is Too Short")
 }
