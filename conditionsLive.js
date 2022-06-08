@@ -5,101 +5,101 @@ let randomNumber = Math.random();
 
 console.log(randomNumber); 
 
-// if (randomNumber < 0.5) {
+if (randomNumber < 0.5) {
 
-//     console.log("Hello Monte");
-//     console.log(randomNumber);
+    console.log("Hello Monte");
+    console.log(randomNumber);
 
-// }
+}
 
-// if (randomNumber >= 0.5) {
+if (randomNumber >= 0.5) {
 
-//     console.log('Random Number is greater than 0.5');
-//     console.log(randomNumber);
+    console.log('Random Number is greater than 0.5');
+    console.log(randomNumber);
 
-// }
+}
 
-//If Else Statement:
-
-//
-
-// const dayOfWeek = 'Monday';
-
-// if (dayOfWeek === 'Monday') {
-
-//     console.log('This is Monday');
-
-// } else if (dayOfWeek === 'Thursday') {
-
-//     console.log("This is Thursday");
-
-// } else if (dayOfWeek ===  'Saturday') {
-
-//     console.log("Hooray, today is Saturday");
-// }
+If Else Statement:
 
 
-// const age = prompt('ENTER AN AGE');
-// // const age = 8;
 
-// if (age < 5) {
-//     console.log("You Type Pretty Fast - 5 ");
-// } else if (age < 10) {
-//     console.log("Output of the logic compared to CASE STATEMENTS");
-// } else if (age < 35) {
-//     console.log("Output of the logic Mr Adult.");
-// }
-// //ELSE -- ALL ALL CONDITIONS IN THE LOGIC HAVE FAILED
-// else {
+const dayOfWeek = 'Monday';
 
-//     console.log("Last Resort If All Conditons Fail");
-// } 
+if (dayOfWeek === 'Monday') {
+
+    console.log('This is Monday');
+
+} else if (dayOfWeek === 'Thursday') {
+
+    console.log("This is Thursday");
+
+} else if (dayOfWeek ===  'Saturday') {
+
+    console.log("Hooray, today is Saturday");
+}
 
 
-// const expr = 'Papayas';
+const age = prompt('ENTER AN AGE');
+// const age = 8;
 
-// switch (age) {
+if (age < 5) {
+    console.log("You Type Pretty Fast - 5 ");
+} else if (age < 10) {
+    console.log("Output of the logic compared to CASE STATEMENTS");
+} else if (age < 35) {
+    console.log("Output of the logic Mr Adult.");
+}
+//ELSE -- ALL ALL CONDITIONS IN THE LOGIC HAVE FAILED
+else {
 
-//     case 'Oranges':
-//         console.log("Oranges are $0.59 a pound");
-//         break;    
-//     case 'Mangoes':
-//         console.log("Hello Mangos!");
-//         break;
-//     case 'Papayas':
-//         console.log("Hello Papayas");
-//         break;
-//     default:
-//         console.log("Sorry, we are out of your asked item.");
+    console.log("Last Resort If All Conditons Fail");
+} 
 
-// }
 
-// const password = prompt("Please Enter A New Password");
+const expr = 'Papayas';
 
-// if (password.length >= 6) {
+switch (age) {
 
-//     //Nested Condition
-//     if (password.indexOf(' ') === -1) {
+    case 'Oranges':
+        console.log("Oranges are $0.59 a pound");
+        break;    
+    case 'Mangoes':
+        console.log("Hello Mangos!");
+        break;
+    case 'Papayas':
+        console.log("Hello Papayas");
+        break;
+    default:
+        console.log("Sorry, we are out of your asked item.");
 
-//         console.log("Valid Password")
-//     }else {
-//         console.log("Password Can't Have Spaces")
-//     }
+}
 
-// } else {
+const password = prompt("Please Enter A New Password");
 
-//     console.log("Password is Too Short")
-// }
+if (password.length >= 6) {
 
-// function singSong() {
-//     console.log("DO");
-//     console.log("RE");
-//     console.log("MI");
-// }
+    //Nested Condition
+    if (password.indexOf(' ') === -1) {
 
-// singSong()
-// singSong()
-// singSong()
+        console.log("Valid Password")
+    }else {
+        console.log("Password Can't Have Spaces")
+    }
+
+} else {
+
+    console.log("Password is Too Short")
+}
+
+function singSong() {
+    console.log("DO");
+    console.log("RE");
+    console.log("MI");
+}
+
+singSong()
+singSong()
+singSong()
 
 function greet(firstName) {
 // 
